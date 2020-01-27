@@ -12,7 +12,7 @@ function WOnload() {
 
     RequestMenuJSON.onload = function() {
         const PizzaMenu = RequestMenuJSON.response;
-        PizzaRender(PizzaMenu);
+        // PizzaRender(PizzaMenu);
         console.log(PizzaMenu);
         console.log(PizzaMenu.length);
 
@@ -24,9 +24,9 @@ function WOnload() {
     // console.log(PizzaMenu);
 
     function PizzaRender(jsonObj) {
-        var Pizzas = jsonObj['members'];
+        const Pizzas = jsonObj['members'];
             
-        for (var i = 0; i < heroes.length; i++) {
+        for (let i = 0; i < Pizzas.length; i++) {
             const main_ChoosePizzaWrapper = document.createElement('div');
             main_ChoosePizzaWrapper.className = "main_ChoosePizzaWrapper";
 
@@ -34,29 +34,32 @@ function WOnload() {
             main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
 
             const main_MenuImg = document.createElement('img');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            main_MenuImg.className = "main_MenuImg";
 
             const main_ChoosePizzaProperties = document.createElement('div');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            main_ChoosePizzaProperties.className = "main_ChoosePizzaProperties";
 
             const main_ChoosePizzaNameDescription = document.createElement('div');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            main_ChoosePizzaNameDescription.className = "main_ChoosePizzaNameDescription";
 
             const main_ChoosePizzaName = document.createElement('div');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            main_ChoosePizzaName.className = "main_ChoosePizzaName";
 
             const main_ChoosePizzaDescription = document.createElement('div');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            main_ChoosePizzaDescription.className = "main_ChoosePizzaDescription";
 
             const main_ChoosePizzaButtonBlockWrapper = document.createElement('div');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            main_ChoosePizzaButtonBlockWrapper.className = "main_ChoosePizzaButtonBlockWrapper";
             
             const main_ChoosePizzaButtonBlock = document.createElement('button');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            // const main_ChoosePizzaButtonBlockActive = main_ChoosePizzaButtonBlock;
+            main_ChoosePizzaButtonBlock.className = "main_ChoosePizzaButtonBlock";
+            // main_ChoosePizzaButtonBlockActive.className = "main_ChoosePizzaButtonBlockActive";
+
             
             
         
-            myH2.textContent = heroes[i].name;
+            main_ChoosePizzaName.textContent = Pizzas[i].name;
             myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
             myPara2.textContent = 'Age: ' + heroes[i].age;
             myPara3.textContent = 'Superpowers:';
