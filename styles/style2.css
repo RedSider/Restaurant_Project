@@ -1,0 +1,16 @@
+.main_slider{
+    margin: 0;
+    padding: 0;
+    height: 60em;
+    width: 100%;
+    max-width: calc(100vw - 5rem);
+    overflow: hidden;
+    background-image: url("../img/MainPizza3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    height: 100px;
+    background-color: white;
+}

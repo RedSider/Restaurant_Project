@@ -1,0 +1,49 @@
+.main_ChoosePizza-ButtonBlock-Wrapper{
+    height: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,.08);
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    margin-bottom: 1.5em;
+}
+.main_ChoosePizza-ButtonBlock {
+    font-size: 16px;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 32%;
+    border: none;
+    background-color: #f8f8f8;
+    /* font-family: Open Sans,sans-serif; */
+}
+.main_ChoosePizza-ButtonBlock2-Wrapper{
+    height: 4.7em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.main_ChoosePizza-ButtonBlock2{
+    border: 1px solid rgba(0,0,0,.08);
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    height: 2em;
+    font-size: 16px;
+    width: 47%;
+}
+.main_ChoosePizza-ButtonBlock-active,
+.main_ChoosePizza-ButtonBlock2-active {
+    background: #4f4f4f;
+    color: #fff;
+    margin: 0;
+    -ms-flex-positive: 1;
+    /* flex-grow: 1; */
+    border-radius: 15px;
+    border: none;
+    -webkit-transition: background .3s linear;
+    -o-transition: background .3s linear;
+    transition: background .3s linear;
+}

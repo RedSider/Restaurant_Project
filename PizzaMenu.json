@@ -1,0 +1,901 @@
+[{
+    "id": 1,
+    "name": "Pizza Margarita",
+    "description": "Mozzarella, Special Sauce",
+    "picture": "img/PizzaMargarita",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 2,
+    "name": "Pizza Texas",
+    "description": "Corn, Onions, Mushrooms, Bavarian Sausages, Mozzarella, Barbecue Sauce",
+    "picture": "img/PizzaTexas",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 3,
+    "name": "Pizza Hawaiian",
+    "description": "Chicken, Pineapple, Mozzarella, Special Sauce",
+    "picture": "img/PizzaHawaiian",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 4,
+    "name": "Country Pizza",
+    "description": "Onions, Bacon, Ham, Mushrooms, Mozzarella, Pickled Cucumbers, Garlic Sauce",
+    "picture": "img/CountryPizza",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 5,
+    "name": "Pizza Vegetable Extravaganza",
+    "description": "Green Peppers, Olives, Onions, Mushrooms, Mozzarella, Tomatoes, Special Sauce",
+    "picture": "img/PizzaVegetableExtravaganza",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 6,
+    "name": "Pizza Provence",
+    "description": "Bergader Blue, Ham, Mozzarella, Pepperoni, Tomatoes, Alfredo Sauce",
+    "picture": "img/PizzaProvence",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 7,
+    "name": "Pizza Bavarian",
+    "description": "Parmesan, Bavarian Sausages, Mozzarella, Barbecue Sauce",
+    "picture": "img/PizzaBavarian",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 8,
+    "name": "Pizza Carbonara",
+    "description": "Onions, Bacon, Ham, Mushrooms, Mozzarella, Alfredo Sauce",
+    "picture": "img/PizzaCarbonara",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 9,
+    "name": "Pizza Five Cheeses",
+    "description": "Feta, Parmesan, Bergader Blue, Mozzarella, Alfredo Sauce, Chedda",
+    "picture": "img/PizzaFiveCheeses",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 10,
+    "name": "Pizza Spinach and Feta",
+    "description": "Feta, Green Peppers, Olives, Mushrooms, Mozzarella, Tomatoes, Alfredo Sauce, Spinach",
+    "picture": "img/PizzaSpinachAndFeta",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 11,
+    "name": "Pizza Royal Cheeseburger",
+    "description": "Double portion of steak (beef), Watering (Burger sauce), Onions, Mozzarella, Barbecue sauce",
+    "picture": "img/PizzaRoyalCheeseburger",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}, {
+    "id": 12,
+    "name": "Pizza Salmon Philadelphia",
+    "description": "Cream cheese Philadelphia, Salmon, Mozzarella, Alfredo sauce",
+    "picture": "img/PizzaSalmonPhiladelphia",
+    "type": {
+        "Standart": {
+            "name": "Standart",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        },
+        "Thin": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "100hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "120hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "140hrn"
+                }
+            }
+        }, 
+        "Philadelhia": {
+           "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }, 
+        "Hot-Dog edge": {
+            "name": "Thin",
+            "size": { 
+                "22cm": {
+                    "name": "22 cm",
+                    "price": "130hrn"
+                },
+                "30cm": {
+                    "name": "30 cm",
+                    "price": "150hrn"
+                },
+                "36cm": {
+                    "name": "36 cm",
+                    "price": "180hrn"
+                }
+            }
+        }
+    }
+}]
