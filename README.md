@@ -1,2 +1,2 @@
-# Restaurant_epamProject
-Restaurant. Epam Project
+# Restaurant_Project
+Restaurant project
