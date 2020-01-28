@@ -4,7 +4,8 @@ function WOnload() {
     // const filter = querySelectorAll("");
     const wrapper = document.querySelector(".main_ChoosePizza");
 
-    const UrlRequestMenuJSON = "../PizzaMenu.json";
+    const UrlRequestMenuJSON = "PizzaMenu.json";
+    // const UrlRequestMenuJSON = "../PizzaMenu.json";
     const RequestMenuJSON = new XMLHttpRequest();
     RequestMenuJSON.open('GET', UrlRequestMenuJSON);
     RequestMenuJSON.responseType = 'json';
@@ -15,18 +16,15 @@ function WOnload() {
         // PizzaRender(PizzaMenu);
         console.log(PizzaMenu);
         console.log(PizzaMenu.length);
-
-    }
+    };
 
     // const MenuJSON = JSON.parse(RequestMenuJSON);
 
 
     // console.log(PizzaMenu);
 
-    function PizzaRender(jsonObj) {
-        const Pizzas = jsonObj['members'];
-            
-        for (let i = 0; i < Pizzas.length; i++) {
+    function PizzaRender(jsonObj) {       
+        for (let i = 0; i < PizzaMenu.length; i++) {
             const main_ChoosePizzaWrapper = document.createElement('div');
             main_ChoosePizzaWrapper.className = "main_ChoosePizzaWrapper";
 
@@ -50,26 +48,53 @@ function WOnload() {
 
             const main_ChoosePizzaButtonBlockWrapper = document.createElement('div');
             main_ChoosePizzaButtonBlockWrapper.className = "main_ChoosePizzaButtonBlockWrapper";
-            
-            const main_ChoosePizzaButtonBlock = document.createElement('button');
-            // const main_ChoosePizzaButtonBlockActive = main_ChoosePizzaButtonBlock;
-            main_ChoosePizzaButtonBlock.className = "main_ChoosePizzaButtonBlock";
-            // main_ChoosePizzaButtonBlockActive.className = "main_ChoosePizzaButtonBlockActive";
 
+            const main_ChoosePizzaButtonBlock2Wrapper = document.createElement('div');
+            main_ChoosePizzaButtonBlock2Wrapper.className = "main_ChoosePizzaButtonBlock2Wrapper";
+
+            const main_ChoosePizzaButtonBlock2 = document.createElement('button');
+            const main_ChoosePizzaButtonBlock2Active = main_ChoosePizzaButtonBlock2;
+            main_ChoosePizzaButtonBlock2Active.className = "main_ChoosePizzaButtonBlock2Active";
+            main_ChoosePizzaButtonBlock2.className = "main_ChoosePizzaButtonBlock2";
+
+            const main_ChoosePizzaButtonBlock = document.createElement('button');
+            main_ChoosePizzaButtonBlock.className = "main_ChoosePizzaButtonBlock";
+
+            const main_ChoosePizzaPrice = document.createElement('div');
+            main_ChoosePizzaPrice.className = "main_ChoosePizzaPrice";
             
             
         
-            main_ChoosePizzaName.textContent = Pizzas[i].name;
-            myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
+            main_ChoosePizzaName.textContent = PizzaMenu[i].name;
+            description.textContent = PizzaMenu[i].description;
             myPara2.textContent = 'Age: ' + heroes[i].age;
-            myPara3.textContent = 'Superpowers:';
               
-            var superPowers = heroes[i].powers;
-            for (var j = 0; j < superPowers.length; j++) {
-            var listItem = document.createElement('li');
-            listItem.textContent = superPowers[j];
-            myList.appendChild(listItem);
+            const PizzaMenuType = PizzaMenu[i].type;
+            for (let j = 0; j < PizzaMenuType.length; j++) {
+                main_ChoosePizzaButtonBlock2.textContent = PizzaMenuType[j].name;
+
+
+
+                const PizzaMenuTypeName = document.createElement('li');
+                listItem.textContent = superPowers[j];
+                myList.appendChild(listItem);
             }
+
+            const PizzaMenuSize = PizzaMenuType[0].size;
+            for (let j = 0; j < PizzaMenuSize.length; j++) {
+                
+                main_ChoosePizzaButtonBlock.textContent = PizzaMenuType[j].name;
+            }
+
+            const PizzaMenuPrice = PizzaMenuSize[0].price;
+            for (let j = 0; j < PizzaMenuPrice.length; j++) {
+                
+                main_ChoosePizzaPrice.textContent = PizzaMenuType[ii].price;
+                    
+            }
+
+
+
       
             myArticle.appendChild(myH2);
             myArticle.appendChild(myPara1);
