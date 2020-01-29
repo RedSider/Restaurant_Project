@@ -2,7 +2,7 @@ function WOnload() {
     // const url 
     // const sort = querySelectorAll("");
     // const filter = querySelectorAll("");
-    const wrapper = document.querySelector(".main_ChoosePizza");
+    const PizzaWrapper = document.querySelector(".main_ChoosePizza");
 
     const UrlRequestMenuJSON = "PizzaMenu.json";
     // const UrlRequestMenuJSON = "../PizzaMenu.json";
@@ -23,7 +23,12 @@ function WOnload() {
 
     // console.log(PizzaMenu);
 
-    function PizzaRender(jsonObj) {       
+
+    // pagination
+    // filtration
+    // sort
+
+    function PizzaRender(jsonObj) {  
         for (let i = 0; i < PizzaMenu.length; i++) {
             const main_ChoosePizzaWrapper = document.createElement('div');
             main_ChoosePizzaWrapper.className = "main_ChoosePizzaWrapper";
@@ -58,25 +63,23 @@ function WOnload() {
             main_ChoosePizzaButtonBlock2.className = "main_ChoosePizzaButtonBlock2";
 
             const main_ChoosePizzaButtonBlock = document.createElement('button');
+            const main_ChoosePizzaButtonBlockActive = main_ChoosePizzaButtonBlock;
+            main_ChoosePizzaButtonBlockActive.className = "main_ChoosePizzaButtonBlockActive";
             main_ChoosePizzaButtonBlock.className = "main_ChoosePizzaButtonBlock";
 
             const main_ChoosePizzaPrice = document.createElement('div');
             main_ChoosePizzaPrice.className = "main_ChoosePizzaPrice";
-            
-            
-        
+
+
             main_ChoosePizzaName.textContent = PizzaMenu[i].name;
             description.textContent = PizzaMenu[i].description;
-            myPara2.textContent = 'Age: ' + heroes[i].age;
+
+
+
               
             const PizzaMenuType = PizzaMenu[i].type;
             for (let j = 0; j < PizzaMenuType.length; j++) {
                 main_ChoosePizzaButtonBlock2.textContent = PizzaMenuType[j].name;
-
-
-
-                const PizzaMenuTypeName = document.createElement('li');
-                listItem.textContent = superPowers[j];
                 myList.appendChild(listItem);
             }
 
@@ -105,5 +108,7 @@ function WOnload() {
             section.appendChild(myArticle);
         }
     }
+
+
 }
 WOnload();
