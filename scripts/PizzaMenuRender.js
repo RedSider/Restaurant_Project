@@ -1,7 +1,9 @@
-function WOnload() {
-    // const url 
+window.addEventListener('load', async () => {
+    // const Url = new URL(location);
+
     // const sort = querySelectorAll("");
     // const filter = querySelectorAll("");
+
     const PizzaWrapper = document.querySelector(".main_ChoosePizza");
 
     const UrlRequestMenuJSON = "PizzaMenu.json";
@@ -13,7 +15,7 @@ function WOnload() {
 
     RequestMenuJSON.onload = function() {
         const PizzaMenu = RequestMenuJSON.response;
-        // PizzaRender(PizzaMenu);
+        PizzaRender(PizzaMenu);
         console.log(PizzaMenu);
         console.log(PizzaMenu.length);
     };
@@ -24,20 +26,21 @@ function WOnload() {
     // console.log(PizzaMenu);
 
 
+    // filtration (map)
+    // sort 
     // pagination
-    // filtration
-    // sort
 
-    function PizzaRender(jsonObj) {  
+    function PizzaRender(PizzaMenu) {  
         for (let i = 0; i < PizzaMenu.length; i++) {
             const main_ChoosePizzaWrapper = document.createElement('div');
             main_ChoosePizzaWrapper.className = "main_ChoosePizzaWrapper";
 
-            const main_ChoosePizzaImg = document.createElement('a');
-            main_ChoosePizzaImg.className = "main_ChoosePizzaImg";
+            const main_MenuImgWrapper = document.createElement('a');
+            main_MenuImgWrapper.className = "main_MenuImgWrapper";
 
             const main_MenuImg = document.createElement('img');
             main_MenuImg.className = "main_MenuImg";
+            main_MenuImg.src = PizzaMenu[i].picture;
 
             const main_ChoosePizzaProperties = document.createElement('div');
             main_ChoosePizzaProperties.className = "main_ChoosePizzaProperties";
@@ -51,64 +54,66 @@ function WOnload() {
             const main_ChoosePizzaDescription = document.createElement('div');
             main_ChoosePizzaDescription.className = "main_ChoosePizzaDescription";
 
-            const main_ChoosePizzaButtonBlockWrapper = document.createElement('div');
-            main_ChoosePizzaButtonBlockWrapper.className = "main_ChoosePizzaButtonBlockWrapper";
+            const main_ChoosePizzaButtonBlockSizeWrapper = document.createElement('div');
+            main_ChoosePizzaButtonBlockSizeWrapper.className = "main_ChoosePizzaButtonBlockSizeWrapper";
 
-            const main_ChoosePizzaButtonBlock2Wrapper = document.createElement('div');
-            main_ChoosePizzaButtonBlock2Wrapper.className = "main_ChoosePizzaButtonBlock2Wrapper";
-
-            const main_ChoosePizzaButtonBlock2 = document.createElement('button');
-            const main_ChoosePizzaButtonBlock2Active = main_ChoosePizzaButtonBlock2;
-            main_ChoosePizzaButtonBlock2Active.className = "main_ChoosePizzaButtonBlock2Active";
-            main_ChoosePizzaButtonBlock2.className = "main_ChoosePizzaButtonBlock2";
-
-            const main_ChoosePizzaButtonBlock = document.createElement('button');
-            const main_ChoosePizzaButtonBlockActive = main_ChoosePizzaButtonBlock;
-            main_ChoosePizzaButtonBlockActive.className = "main_ChoosePizzaButtonBlockActive";
-            main_ChoosePizzaButtonBlock.className = "main_ChoosePizzaButtonBlock";
+            const main_ChoosePizzaButtonBlockTypeWrapper = document.createElement('div');
+            main_ChoosePizzaButtonBlockTypeWrapper.className = "main_ChoosePizzaButtonBlockTypeWrapper";
 
             const main_ChoosePizzaPrice = document.createElement('div');
             main_ChoosePizzaPrice.className = "main_ChoosePizzaPrice";
 
 
+
+
             main_ChoosePizzaName.textContent = PizzaMenu[i].name;
-            description.textContent = PizzaMenu[i].description;
+            main_ChoosePizzaDescription.textContent = PizzaMenu[i].description;
 
 
+            PizzaWrapper.appendChild(main_ChoosePizzaWrapper);
+            
+            main_ChoosePizzaWrapper.appendChild(main_MenuImgWrapper);
+            main_MenuImgWrapper.appendChild(main_MenuImg);
+            main_ChoosePizzaWrapper.appendChild(main_ChoosePizzaProperties);
+            main_ChoosePizzaProperties.appendChild(main_ChoosePizzaNameDescription);
+            main_ChoosePizzaNameDescription.appendChild(main_ChoosePizzaName);
+            main_ChoosePizzaNameDescription.appendChild(main_ChoosePizzaDescription);
+            main_ChoosePizzaWrapper.appendChild(main_ChoosePizzaButtonBlockSizeWrapper);
+            main_ChoosePizzaWrapper.appendChild(main_ChoosePizzaButtonBlockTypeWrapper);
+            
+            
 
               
             const PizzaMenuType = PizzaMenu[i].type;
             for (let j = 0; j < PizzaMenuType.length; j++) {
-                main_ChoosePizzaButtonBlock2.textContent = PizzaMenuType[j].name;
-                myList.appendChild(listItem);
+                const main_ChoosePizzaButtonBlockType = document.createElement('button');
+                const main_ChoosePizzaButtonBlockTypeActive = main_ChoosePizzaButtonBlockType;
+                main_ChoosePizzaButtonBlockTypeActive.className = "main_ChoosePizzaButtonBlockTypeActive";
+                main_ChoosePizzaButtonBlockType.className = "main_ChoosePizzaButtonBlockType";
+                main_ChoosePizzaButtonBlockType.textContent = PizzaMenuType[j].name;
+                main_ChoosePizzaButtonBlockTypeWrapper.appendChild(main_ChoosePizzaButtonBlockType);
             }
 
             const PizzaMenuSize = PizzaMenuType[0].size;
             for (let j = 0; j < PizzaMenuSize.length; j++) {
-                
-                main_ChoosePizzaButtonBlock.textContent = PizzaMenuType[j].name;
+                const main_ChoosePizzaButtonBlockSize = document.createElement('button');
+                const main_ChoosePizzaButtonBlockSizeActive = main_ChoosePizzaButtonBlockSize;
+                main_ChoosePizzaButtonBlockSizeActive.className = "main_ChoosePizzaButtonBlockSizeActive";
+                main_ChoosePizzaButtonBlockSize.className = "main_ChoosePizzaButtonBlockSize";
+                main_ChoosePizzaButtonBlockSize.textContent = PizzaMenuSize[j].name;
+                main_ChoosePizzaButtonBlockSizeWrapper.appendChild(main_ChoosePizzaButtonBlockSize);
             }
 
             const PizzaMenuPrice = PizzaMenuSize[0].price;
             for (let j = 0; j < PizzaMenuPrice.length; j++) {
-                
-                main_ChoosePizzaPrice.textContent = PizzaMenuType[ii].price;
-                    
+                main_ChoosePizzaPrice.textContent = PizzaMenuPrice;
+                main_ChoosePizzaWrapper.appendChild(main_ChoosePizzaPrice);
             }
 
 
-
-      
-            myArticle.appendChild(myH2);
-            myArticle.appendChild(myPara1);
-            myArticle.appendChild(myPara2);
-            myArticle.appendChild(myPara3);
-            myArticle.appendChild(myList);
-      
-            section.appendChild(myArticle);
+            
         }
     }
 
 
-}
-WOnload();
+});

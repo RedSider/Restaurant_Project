@@ -1,0 +1,81 @@
+#main_header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    align-items: center;
+    width: calc(100vw - 10em);
+    max-width: calc(100vw - 10.2em);
+    background: #3f3f3f;
+}
+.main_header--SortByType{
+    display: flex;
+    justify-content: space-around;
+    /* width: 30%; */
+}
+.mainWrapper{
+    padding: 1em 1.5em;
+    height: calc(100% - 2em);
+    box-shadow: 0 0 30px rgba(0,0,0,.1) inset, 0 0 3px rgba(0,0,0,.2);
+}
+.main_ChoosePizza{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main_ChoosePizza .main_ChoosePizza--wrapper,
+.main_ChoosePizza .main_ChoosePizzaWrapper{
+    width: calc(33% - 4em);
+    max-width: 25em;
+    min-width: 15em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: transparent; */
+    height: 28em;
+    margin: 1.5em 1em;
+    border: 1px solid transparent;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    height: 100%;
+}
+.main_ChoosePizza--wrapper:hover,
+.main_ChoosePizzaWrapper:hover{
+    border: 1px solid rgba(0,0,0,.2);
+    /* border: 2px solid;
+    border-image: radial-gradient(rgb(255, 0, 0), rgb(250,224,66)) 1; */
+    border-top: 1px solid transparent;
+    border-radius: 5%;
+    box-shadow: 0 10px 15px rgba(255, 0, 0, 0.4);
+}
+.main_ChoosePizza--properties,
+.main_ChoosePizzaProperties{
+    padding: 1em;
+}
+.main_ChoosePizza--name,
+.main_ChoosePizzaName{
+    font-size: 2em;
+    line-height: 30px;
+    font-weight: 800;
+    margin-bottom: 0.2em;
+    height: 4.2rem;
+}
+.main_ChoosePizza--description,
+.main_ChoosePizzaDescription{
+    margin-bottom: 1em;
+    overflow: hidden;
+    height: 3.4rem;
+}
+
+/* .main_ChoosePizza--img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+} */
+.img,
+.main_MenuImg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 7%;
+}
