@@ -8,52 +8,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "90hrn"
+                "price": "90"
             }, {
                 "name": "30 cm",
-                "price": "170hrn"
+                "price": "170"
             }, {
                 "name": "36 cm",
-                "price": "200hrn"
+                "price": "200"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -67,52 +67,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "90hrn"
+                "price": "90"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -126,52 +126,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "30 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -185,52 +185,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -244,52 +244,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -303,52 +303,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -362,52 +362,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -421,52 +421,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -480,52 +480,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "190hrn"
+                "price": "190"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -539,52 +539,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "190hrn"
+                "price": "190"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -598,52 +598,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "290hrn"
+                "price": "290"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
@@ -657,52 +657,52 @@
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "290hrn"
+                "price": "290"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             }
         ] 
     }, {
         "name": "Thin",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "100"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "120"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "140"
             } 
         ]
     }, {
         "name": "Philadelphia",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     }, {
         "name": "Hot-Dog edge",
         "size": [ {
                 "name": "22 cm",
-                "price": "130hrn"
+                "price": "130"
             }, {
                 "name": "30 cm",
-                "price": "150hrn"
+                "price": "150"
             }, {
                 "name": "36 cm",
-                "price": "180hrn"
+                "price": "180"
             } 
         ]
     } ]
