@@ -2,18 +2,19 @@
     "id": 1,
     "name": "Pizza Margarita",
     "description": "Mozzarella, Special Sauce",
+    "FilterStatus": ["Vegetarian"],
     "picture": "img/Pizza Margarita.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "90hrn"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "170hrn"
             }, {
                 "name": "36 cm",
-                "price": "140hrn"
+                "price": "200hrn"
             }
         ] 
     }, {
@@ -60,12 +61,13 @@
     "id": 2,
     "name": "Pizza Texas",
     "description": "Corn, Onions, Mushrooms, Bavarian Sausages, Mozzarella, Barbecue Sauce",
+    "FilterStatus": [""],
     "picture": "img/Pizza Texas.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "90hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -118,15 +120,16 @@
     "id": 3,
     "name": "Pizza Hawaiian",
     "description": "Chicken, Pineapple, Mozzarella, Special Sauce",
+    "FilterStatus": [""],
     "picture": "img/Pizza Hawaiian.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "120hrn"
             }, {
                 "name": "30 cm",
-                "price": "120hrn"
+                "price": "130hrn"
             }, {
                 "name": "36 cm",
                 "price": "140hrn"
@@ -176,12 +179,13 @@
     "id": 4,
     "name": "Country Pizza",
     "description": "Onions, Bacon, Ham, Mushrooms, Mozzarella, Pickled Cucumbers, Garlic Sauce",
+    "FilterStatus": [""],
     "picture": "img/Country Pizza.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "150hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -234,12 +238,13 @@
     "id": 5,
     "name": "Pizza Vegetable Extravaganza",
     "description": "Green Peppers, Olives, Onions, Mushrooms, Mozzarella, Tomatoes, Special Sauce",
+    "FilterStatus": ["Vegetarian"],
     "picture": "img/Pizza Vegetable Extravaganza.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "150hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -292,12 +297,13 @@
     "id": 6,
     "name": "Pizza Provence",
     "description": "Bergader Blue, Ham, Mozzarella, Pepperoni, Tomatoes, Alfredo Sauce",
+    "FilterStatus": [""],
     "picture": "img/Pizza Provence.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "150hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -350,12 +356,13 @@
     "id": 7,
     "name": "Pizza Bavarian",
     "description": "Parmesan, Bavarian Sausages, Mozzarella, Barbecue Sauce",
+    "FilterStatus": [""],
     "picture": "img/Pizza Bavarian.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "150hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -408,12 +415,13 @@
     "id": 8,
     "name": "Pizza Carbonara",
     "description": "Onions, Bacon, Ham, Mushrooms, Mozzarella, Alfredo Sauce",
+    "FilterStatus": [""],
     "picture": "img/Pizza Carbonara.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "150hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -466,12 +474,13 @@
     "id": 9,
     "name": "Pizza Five Cheeses",
     "description": "Feta, Parmesan, Bergader Blue, Mozzarella, Alfredo Sauce, Chedda",
+    "FilterStatus": ["Vegetarian", "Premium"],
     "picture": "img/Pizza Five Cheeses.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "190hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -524,12 +533,13 @@
     "id": 10,
     "name": "Pizza Spinach and Feta",
     "description": "Feta, Green Peppers, Olives, Mushrooms, Mozzarella, Tomatoes, Alfredo Sauce, Spinach",
+    "FilterStatus": ["Vegetarian", "Premium"],
     "picture": "img/Pizza Spinach And Feta.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "190hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -582,12 +592,13 @@
     "id": 11,
     "name": "Pizza Royal Cheeseburger",
     "description": "Double portion of steak (beef), Watering (Burger sauce), Onions, Mozzarella, Barbecue sauce",
+    "FilterStatus": ["Premium"],
     "picture": "img/Pizza Royal Cheeseburger.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "290hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"
@@ -640,12 +651,13 @@
     "id": 12,
     "name": "Pizza Salmon Philadelphia",
     "description": "Cream cheese Philadelphia, Salmon, Mozzarella, Alfredo sauce",
+    "FilterStatus": ["Premium"],
     "picture": "img/Pizza Salmon Philadelphia.jpg",
     "type": [ {
         "name": "Standart",
         "size": [ {
                 "name": "22 cm",
-                "price": "100hrn"
+                "price": "290hrn"
             }, {
                 "name": "30 cm",
                 "price": "120hrn"

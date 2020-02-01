@@ -1,4 +1,5 @@
-.main_ChoosePizza-ButtonBlock-Wrapper{
+.main_ChoosePizza-ButtonBlock-Wrapper,
+.main_ChoosePizzaButtonBlockSizeWrapper{
     height: 2em;
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +8,8 @@
     background-color: #f8f8f8;
     margin-bottom: 1.5em;
 }
-.main_ChoosePizza-ButtonBlock {
+.main_ChoosePizza-ButtonBlock,
+.main_ChoosePizzaButtonBlockSize {
     font-size: 16px;
     flex-grow: 1;
     border-radius: 15px;
@@ -19,14 +21,16 @@
     background-color: #f8f8f8;
     /* font-family: Open Sans,sans-serif; */
 }
-.main_ChoosePizza-ButtonBlock2-Wrapper{
+.main_ChoosePizza-ButtonBlock2-Wrapper,
+.main_ChoosePizzaButtonBlockTypeWrapper{
     height: 4.7em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
 }
-.main_ChoosePizza-ButtonBlock2{
+.main_ChoosePizza-ButtonBlock2,
+.main_ChoosePizzaButtonBlockType{
     border: 1px solid rgba(0,0,0,.08);
     background-color: #f8f8f8;
     border-radius: 15px;
@@ -35,7 +39,9 @@
     width: 47%;
 }
 .main_ChoosePizza-ButtonBlock-active,
-.main_ChoosePizza-ButtonBlock2-active {
+.main_ChoosePizza-ButtonBlock2-active, 
+.main_ChoosePizzaButtonBlockTypeActive, 
+.main_ChoosePizzaButtonBlockSizeActive {
     background: #4f4f4f;
     color: #fff;
     margin: 0;
