@@ -89,24 +89,23 @@ window.addEventListener('load', async () => {
                     console.log(PizzaMenuFiltered);
                     if (PizzaFilterStatus == "All") {
                         PizaMenuSorted = PizzaMenu;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => a.type[0].size[0].price < b.type[0].size[0].price ? 1 : -1);
+                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(b.type[0].size[0].price) - parseFloat(a.type[0].size[0].price));
                     }
                     else{
                         PizaMenuSorted = PizzaMenuFiltered;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => a.type[0].size[0].price < b.type[0].size[0].price ? 1 : -1);
+                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(b.type[0].size[0].price) - parseFloat(a.type[0].size[0].price));
                     }
                     PizzaRender(PizaMenuSorted);
                     console.log(PizaMenuSorted);
                     break;
-
                 case "price_up":
                     if (PizzaFilterStatus == "All") {
                         PizaMenuSorted = PizzaMenu;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => a.type[0].size[0].price > b.type[0].size[0].price ? 1 : -1);
+                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(a.type[0].size[0].price) - parseFloat(b.type[0].size[0].price));
                     }
                     else{
                         PizaMenuSorted = PizzaMenuFiltered;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => a.type[0].size[0].price > b.type[0].size[0].price ? 1 : -1);
+                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(a.type[0].size[0].price) - parseFloat(b.type[0].size[0].price));
                     }
                     PizzaRender(PizaMenuSorted);
                     break;
@@ -121,8 +120,6 @@ window.addEventListener('load', async () => {
 
 
         function PizzaRender(PizzaMenuDone) {  
-                // sort arr sort js
-
                 // pagination arr ... js
 
 
