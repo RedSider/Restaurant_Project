@@ -1,31 +1,83 @@
 window.addEventListener('load', async () => {
     // const Url = new URL(location);
 
-    // const Filter = querySelectorAll("");
-    // const filter = querySelectorAll("");
 
-    const PizzaWrapper = document.querySelector(".main_ChoosePizza");
-    let PizzaFilterStatus = "All";
+    
 
 
+                // Pizzas json
+    const UrlRequestPizzaMenuJSON = "PizzaMenu.json";
+    // const UrlRequestPizzaMenuJSON = "../PizzaMenu.json";
+    const RequestPizzaMenuJSON = new XMLHttpRequest();
+    RequestPizzaMenuJSON.open('GET', UrlRequestPizzaMenuJSON);
+    RequestPizzaMenuJSON.responseType = 'json';
+    RequestPizzaMenuJSON.send();
 
-    const UrlRequestMenuJSON = "PizzaMenu.json";
-    // const UrlRequestMenuJSON = "../PizzaMenu.json";
-    const RequestMenuJSON = new XMLHttpRequest();
-    RequestMenuJSON.open('GET', UrlRequestMenuJSON);
-    RequestMenuJSON.responseType = 'json';
-    RequestMenuJSON.send();
+                // Sushi json
+    // const UrlRequestPizzaMenuJSON = "PizzaMenu.json";
+    // // const UrlRequestPizzaMenuJSON = "../PizzaMenu.json";
+    // const RequestPizzaMenuJSON = new XMLHttpRequest();
+    // RequestPizzaMenuJSON.open('GET', UrlRequestPizzaMenuJSON);
+    // RequestPizzaMenuJSON.responseType = 'json';
+    // RequestPizzaMenuJSON.send();
 
-    RequestMenuJSON.onload = function() {
-        const PizzaMenu = RequestMenuJSON.response;
+
+
+    function MenuFilter(FilterStatus, MenuFiltered) {
+        MenuFiltered = MenuFiltered.filter(function(item){
+            return item.FilterStatus.includes(FilterStatus);
+        });
+        return MenuFiltered;
+    }
+
+    function MenuSort(FilterStatus, MenuSorted_Filtered, MenuSorted_All, MenuSort_Value) {
+        let MenuSorted;
+        switch (MenuSort_Value) {
+            case "price_down":
+                if (FilterStatus == "All") {
+                    MenuSorted = MenuSorted_All;
+                    MenuSorted = MenuSorted.sort( (a, b) => parseFloat(b.defaultPrice) - parseFloat(a.defaultPrice));
+                }
+                else{
+                    MenuSorted = MenuSorted_Filtered;
+                    MenuSorted = MenuSorted.sort( (a, b) => parseFloat(b.defaultPrice) - parseFloat(a.defaultPrice));
+                }
+                console.log(MenuSorted);
+                return MenuSorted;
+                // break;
+            case "price_up":
+                if (FilterStatus == "All") {
+                    MenuSorted = MenuSorted_All;
+                    MenuSorted = MenuSorted.sort( (a, b) => parseFloat(a.defaultPrice) - parseFloat(b.defaultPrice));
+                }
+                else{
+                    MenuSorted = MenuSorted_Filtered;
+                    MenuSorted = MenuSorted.sort( (a, b) => parseFloat(a.defaultPrice) - parseFloat(b.defaultPrice));
+                }
+                return MenuSorted;
+                // break;
+        
+            default:
+                console.log(MenuSort_Value);
+                break;
+        }
+    }    
+
+
+
+    RequestPizzaMenuJSON.onload = function() {
+        const PizzaMenu = RequestPizzaMenuJSON.response;
+        const PizzaWrapper = document.querySelector(".main_ChoosePizza");
         PizzaRender(PizzaMenu);
         console.log(PizzaMenu);
-        
-        // console.log(PizzaMenu.length);
 
 
         
         const PizzaFilter_All = document.querySelector("#PizzaFilter_All");
+        const PizzaFilter_Vegetarian = document.querySelector("#PizzaFilter_Vegetarian");
+        const PizzaFilter_Premium = document.querySelector("#PizzaFilter_Premium");
+        let PizzaFilterStatus = "All";
+        let PizzaMenuFiltered;
         PizzaFilter_All.onclick = () => {
             //проверка, на статус до этого              
             PizzaFilterStatus = "All";
@@ -33,87 +85,42 @@ window.addEventListener('load', async () => {
                 PizzaWrapper.removeChild(PizzaWrapper.firstChild);
             }
             PizzaRender(PizzaMenu);
-        };
-        const PizzaFilter_Vegetarian = document.querySelector("#PizzaFilter_Vegetarian");
+        };   
         PizzaFilter_Vegetarian.onclick = () => {
             //проверка, на статус до этого
             PizzaFilterStatus = "Vegetarian";
-            PizzaMenuFilter();
-           
-        };
-        const PizzaFilter_Premium = document.querySelector("#PizzaFilter_Premium");
-        PizzaFilter_Premium.onclick = () => {
-            //проверка, на статус до этого
-            PizzaFilterStatus = "Premium";
-            PizzaMenuFilter();
-        };
-        let PizzaMenuFiltered;
-        function PizzaMenuFilter() {
             PizzaMenuFiltered = PizzaMenu;
-            console.log(PizzaMenuFiltered);
-            PizzaMenuFiltered = PizzaMenuFiltered.filter(function(item){
-                return item.FilterStatus.includes(PizzaFilterStatus);
-            });
-            console.log(PizzaMenuFiltered);
             while (PizzaWrapper.firstChild) {
                 PizzaWrapper.removeChild(PizzaWrapper.firstChild);
             }
+            PizzaMenuFiltered = MenuFilter(PizzaFilterStatus, PizzaMenuFiltered);
             PizzaRender(PizzaMenuFiltered);
-        }
-        // function PizzaMenuFilter() {
-        //     let PizzaMenuFiltered = [];
-        //     for (let i = 0; i < PizzaMenu.length; i++) {
-        //         console.log(PizzaMenu[i].FilterStatus);
-        //         let FilterStatus = PizzaMenu[i].FilterStatus;
-        //         for (let j = 0; j < FilterStatus.length; j++) {
-        //             if (FilterStatus[j] == PizzaFilterStatus) {
-        //                 PizzaMenuFiltered.push(PizzaMenu[i]);
-        //                 console.log(PizzaMenuFiltered);
-        //             }
-        //         }
-        //     }
-        //     PizzaRender(PizzaMenu);
-        // }
+           
+        };
+        PizzaFilter_Premium.onclick = () => {
+            //проверка, на статус до этого
+            PizzaFilterStatus = "Premium";
+            PizzaMenuFiltered = PizzaMenu;
+            while (PizzaWrapper.firstChild) {
+                PizzaWrapper.removeChild(PizzaWrapper.firstChild);
+            }
+            PizzaMenuFiltered = MenuFilter(PizzaFilterStatus, PizzaMenuFiltered);
+            PizzaRender(PizzaMenuFiltered);
+        };
         
         
-        console.log(PizzaMenu[0].type[0].size[0].price);
+
         const PizzaMenuSort = document.querySelector("#PizzaMenuSort");
-        let PizaMenuSorted;
-        console.log(PizzaMenuSort);
         PizzaMenuSort.addEventListener("change", () => {
             while (PizzaWrapper.firstChild) {
                 PizzaWrapper.removeChild(PizzaWrapper.firstChild);
             }
-            switch (PizzaMenuSort[PizzaMenuSort.selectedIndex].value) {
-                case "price_down":
-                    console.log(PizzaMenuFiltered);
-                    if (PizzaFilterStatus == "All") {
-                        PizaMenuSorted = PizzaMenu;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(b.type[0].size[0].price) - parseFloat(a.type[0].size[0].price));
-                    }
-                    else{
-                        PizaMenuSorted = PizzaMenuFiltered;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(b.type[0].size[0].price) - parseFloat(a.type[0].size[0].price));
-                    }
-                    PizzaRender(PizaMenuSorted);
-                    console.log(PizaMenuSorted);
-                    break;
-                case "price_up":
-                    if (PizzaFilterStatus == "All") {
-                        PizaMenuSorted = PizzaMenu;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(a.type[0].size[0].price) - parseFloat(b.type[0].size[0].price));
-                    }
-                    else{
-                        PizaMenuSorted = PizzaMenuFiltered;
-                        PizaMenuSorted = PizaMenuSorted.sort( (a, b) => parseFloat(a.type[0].size[0].price) - parseFloat(b.type[0].size[0].price));
-                    }
-                    PizzaRender(PizaMenuSorted);
-                    break;
-            
-                default:
-                    console.log(PizzaMenuSort.options);
-                    break;
-            }
+            let PizzaMenuSorted_All = PizzaMenu;
+            let PizzaMenuSorted_Filtered = PizzaMenuFiltered;
+            const PizzaMenuSort_Value = PizzaMenuSort[PizzaMenuSort.selectedIndex].value;
+            console.log(PizzaMenuSort);
+
+            PizzaRender(MenuSort(PizzaFilterStatus, PizzaMenuSorted_Filtered, PizzaMenuSorted_All, PizzaMenuSort_Value));
         });
         
 
@@ -121,7 +128,6 @@ window.addEventListener('load', async () => {
 
         function PizzaRender(PizzaMenuDone) {  
                 // pagination arr ... js
-
 
             for (let i = 0; i < PizzaMenuDone.length; i++) {
                 const main_ChoosePizzaWrapper = document.createElement('div');

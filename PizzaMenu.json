@@ -4,6 +4,7 @@
     "description": "Mozzarella, Special Sauce",
     "FilterStatus": ["Vegetarian"],
     "picture": "img/Pizza Margarita.jpg",
+    "defaultPrice": "90",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -63,6 +64,7 @@
     "description": "Corn, Onions, Mushrooms, Bavarian Sausages, Mozzarella, Barbecue Sauce",
     "FilterStatus": [""],
     "picture": "img/Pizza Texas.jpg",
+    "defaultPrice": "90",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -122,6 +124,7 @@
     "description": "Chicken, Pineapple, Mozzarella, Special Sauce",
     "FilterStatus": [""],
     "picture": "img/Pizza Hawaiian.jpg",
+    "defaultPrice": "120",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -181,6 +184,7 @@
     "description": "Onions, Bacon, Ham, Mushrooms, Mozzarella, Pickled Cucumbers, Garlic Sauce",
     "FilterStatus": [""],
     "picture": "img/Country Pizza.jpg",
+    "defaultPrice": "150",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -240,6 +244,7 @@
     "description": "Green Peppers, Olives, Onions, Mushrooms, Mozzarella, Tomatoes, Special Sauce",
     "FilterStatus": ["Vegetarian"],
     "picture": "img/Pizza Vegetable Extravaganza.jpg",
+    "defaultPrice": "150",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -299,6 +304,7 @@
     "description": "Bergader Blue, Ham, Mozzarella, Pepperoni, Tomatoes, Alfredo Sauce",
     "FilterStatus": [""],
     "picture": "img/Pizza Provence.jpg",
+    "defaultPrice": "150",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -358,6 +364,7 @@
     "description": "Parmesan, Bavarian Sausages, Mozzarella, Barbecue Sauce",
     "FilterStatus": [""],
     "picture": "img/Pizza Bavarian.jpg",
+    "defaultPrice": "150",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -417,6 +424,7 @@
     "description": "Onions, Bacon, Ham, Mushrooms, Mozzarella, Alfredo Sauce",
     "FilterStatus": [""],
     "picture": "img/Pizza Carbonara.jpg",
+    "defaultPrice": "150",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -476,6 +484,7 @@
     "description": "Feta, Parmesan, Bergader Blue, Mozzarella, Alfredo Sauce, Chedda",
     "FilterStatus": ["Vegetarian", "Premium"],
     "picture": "img/Pizza Five Cheeses.jpg",
+    "defaultPrice": "190",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -535,6 +544,7 @@
     "description": "Feta, Green Peppers, Olives, Mushrooms, Mozzarella, Tomatoes, Alfredo Sauce, Spinach",
     "FilterStatus": ["Vegetarian", "Premium"],
     "picture": "img/Pizza Spinach And Feta.jpg",
+    "defaultPrice": "190",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -594,6 +604,7 @@
     "description": "Double portion of steak (beef), Watering (Burger sauce), Onions, Mozzarella, Barbecue sauce",
     "FilterStatus": ["Premium"],
     "picture": "img/Pizza Royal Cheeseburger.jpg",
+    "defaultPrice": "290",
     "type": [ {
         "name": "Standart",
         "size": [ {
@@ -653,6 +664,7 @@
     "description": "Cream cheese Philadelphia, Salmon, Mozzarella, Alfredo sauce",
     "FilterStatus": ["Premium"],
     "picture": "img/Pizza Salmon Philadelphia.jpg",
+    "defaultPrice": "290",
     "type": [ {
         "name": "Standart",
         "size": [ {
