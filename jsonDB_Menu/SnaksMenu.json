@@ -1,0 +1,65 @@
+[{
+    "id": 1,
+    "name": "Caesar",
+    "description": "Grilled chicken fillet, bacon, egg, tomatoes, romaine lettuce, parmesan, garlic croutons, Caesar sauce",
+    "FilterStatus": ["salad"],
+    "picture": "img/Salads_and_Snack/cezar.jpeg",
+    "defaultPrice": "135",
+    "size": "275 gr"
+}, {
+    "id": 2,
+    "name": "Citrus salad with salmon",
+    "description": "Spiced salted salmon, orange, grapefruit, mixed salad with citrus sauce and almonds, cherry tomatoes",
+    "FilterStatus": ["salad"],
+    "picture": "img/Salads_and_Snack/citrusovyj-lososem.jpeg",
+    "defaultPrice": "155",
+    "size": "220 gr"
+}, {
+    "id": 3,
+    "name": "Greek",
+    "description": "Tomatoes, bell peppers, cucumbers, salad mix, feta cheese, red onion, oregano, olive oil, Balsamic sauce",
+    "FilterStatus": ["salad"],
+    "picture": "img/Salads_and_Snack/grecheskij.jpeg",
+    "defaultPrice": "109",
+    "size": "245 gr"
+}, {
+    "id": 4,
+    "name": "Kaiso",
+    "description": "Chuka, celery, cucumber, sesame, lemon, sauce Homadare",
+    "FilterStatus": ["salad"],
+    "picture": "img/Salads_and_Snack/kajso.jpeg",
+    "defaultPrice": "75",
+    "size": "125/30 gr"
+}, {
+    "id": 5,
+    "name": "Chicken and Camembert salad",
+    "description": "Salad mix, baked chicken, camembert, avocado, tomato, olives, roman sauce",
+    "FilterStatus": ["salad"],
+    "picture": "img/Salads_and_Snack/kamamber.jpeg",
+    "defaultPrice": "135",
+    "size": "240 gr"
+}, {
+    "id": 6,
+    "name": "Citrus salad with shrimp",
+    "description": "Shrimps, orange, grapefruit, salad mix with citrus sauce and almonds, cherry tomatoes",
+    "FilterStatus": ["salad"],
+    "picture": "img/Salads_and_Snack/s-krevetkami.jpeg",
+    "defaultPrice": "165",
+    "size": "220 gr"
+}, {
+    "id": 7,
+    "name": "Homemade herring",
+    "description": "Lightly salted herring with baked potatoes and pickled onions",
+    "FilterStatus": ["snack"],
+    "picture": "img/Salads_and_Snack/seld.jpeg",
+    "defaultPrice": "95",
+    "size": "240 gr"
+}, {
+    "id": 8,
+    "name": "Cheese Festival",
+    "description": "Radomer cheese, parmesan, goat cheese, sweet onion jam, honey",
+    "FilterStatus": ["snack"],
+    "picture": "img/Salads_and_Snack/syr.jpeg",
+    "defaultPrice": "129",
+    "size": "140 gr"
+}]

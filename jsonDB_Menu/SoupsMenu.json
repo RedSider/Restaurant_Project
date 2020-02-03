@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "name": "Chicken soup",
+    "description": "Chicken soup, chicken, egg noodles and aromatic herbs",
+    "FilterStatus": ["special_offer"],
+    "picture": "img/Soups/bulion.jpeg",
+    "defaultPrice": "69",
+    "size": "365 gr"
+}, {
+    "id": 2,
+    "name": "Ramen",
+    "description": "Classic ramen soup with egg noodles, spicy pork breast, marinated egg and fried sesame",
+    "picture": "img/Soups/ramen.jpeg",
+    "defaultPrice": "109",
+    "size": "340 gr"
+}, {
+    "id": 3,
+    "name": "Scandinavian salmon soup",
+    "description": "Creamy soup with salmon, potatoes, onions, dill and white pepper. Served with salmon burgers",
+    "picture": "img/Soups/sup-s-lososem.jpeg",
+    "defaultPrice": "109",
+    "size": "270/70 gr"
+}, {
+    "id": 4,
+    "name": "Cheese soup",
+    "description": "Cheese soup with dor blue, cheddar, cream cheese, bacon. Bruschetta with cheese cream",
+    "FilterStatus": ["special offer"],
+    "picture": "img/Soups/syrnyj-sup.jpeg",
+    "defaultPrice": "89",
+    "size": "300/60 gr"
+}, {
+    "id": 5,
+    "name": "Tom kha soup with chicken",
+    "description": "Spicy Asian soup with eggplant, mushrooms, chicken, lemongrass, served with rice and cilantro",
+    "picture": "img/Soups/tom-kha.jpeg",
+    "defaultPrice": "119",
+    "size": "330/90 gr"
+}]

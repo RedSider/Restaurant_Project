@@ -22,10 +22,6 @@
             <div class="logo_sLogo" id="logo_sLogo">Staurant</div>
         </a>
 
-        <div class="header_tableReserve">
-            <span>Book a table</span>
-        </div>
-
         <div class="header_search">
             <span>search</span>
             <input type="text">
@@ -40,44 +36,44 @@
 <!-- боковое меню -->
     <aside class="aside" id="aside">
         <ul class="aside_ul" id="aside_ul">
-            <li class="aside_ul--li" id="aside_ul--li1">
-                <a href="choose.html" class="">      
+            <li class="aside_ul--li" id="asideUl_Pizza">
+                <a href="#main_headerPizzaMenuTarget" class="">      
                     <img src="img/picca_ico.svg" width="30" height="30" alt="Піца" title="Піца">
                     <span>RedPizza</span>
                 </a>
             </li>
-            <li class="aside_ul--li active" id="aside_ul--li2">
-                <a href="">
+            <li class="aside_ul--li active" id="asideUl_Sushi">
+                <a href="#main_headerSushiMenuTarget">
                     <img src="img/sushi_ico.svg" width="30" height="30" alt="Sushi" title="Sushi">
                     <span>RedSushi</span>
                 </a>
             </li>
-            <li class="aside_ul--li" id="aside_ul--li3">
-                <a href="">
+            <li class="aside_ul--li" id="asideUl_Snacks&Salads">
+                <a href="#main_headerSnacks&SaladsMenuTarget">
                     <img src="img/salads_and_snacks_ico.svg" width="30" height="30" alt="Піца" title="Піца">
                     <span>RedSnacks&salads</span>
                 </a>
             </li>
-            <li class="aside_ul--li" id="aside_ul--li4">
-                <a href="">
+            <li class="aside_ul--li" id="asideUl_Soups">
+                <a href="#main_headerSoupsMenuTarget">
                     <img src="img/soup_ico.svg" width="30" height="30" alt="Піца" title="Піца">
                     <span>RedSoups</span>
                 </a>
             </li>
-            <li class="aside_ul--li" id="aside_ul--li4">
-                <a href="">
+            <li class="aside_ul--li" id="asideUl_HotMeals">
+                <a href="#main_headerHotMealsMenuTarget">
                     <img src="img/hot_meals_ico.svg" width="30" height="30" alt="Піца" title="Піца">
                     <span>RedHotMeals</span>
                 </a>
             </li>
-            <li class="aside_ul--li" id="aside_ul--li4">
-                <a href="">
+            <li class="aside_ul--li" id="asideUl_Desserts">
+                <a href="#main_headerDessertsMenuTarget">
                     <img src="img/dessert_ico.svg" width="30" height="30" alt="Піца" title="Піца">
                     <span>RedDesserts</span>
                 </a>
             </li>
-            <li class="aside_ul--li" id="aside_ul--li4">
-                <a href="">
+            <li class="aside_ul--li" id="asideUl_RedBeverages">
+                <a href="#main_headerBeveragesMenuTarget">
                     <img src="img/beverages_ico.svg" width="30" height="30" alt="Піца" title="Піца">
                     <span>RedBeverages</span>
                 </a>
@@ -96,7 +92,8 @@
         </div>
 
         <!-- header пицц -->
-        <header class="main_header" id="main_header">
+        <header class="main_header" id="main_headerPizzaMenu">
+            <div class="main_headerScrollTarget" id="main_headerPizzaMenuTarget"></div>
             <div class="main_header--name font-size-35px">Pizza:</div>
             
             <div class="main_header--SortByType">
@@ -144,8 +141,8 @@
 
         <!-- Меню пицц -->
         <div class="mainWrapper">
-            <div class="main_ChoosePizza">
-                <div class="main_ChoosePizza--wrapper vegetable_pizza">
+            <div class="main_MenuWrapper" id="PizzaMenuWrapper">
+                <!-- <div class="main_ChoosePizza--wrapper vegetable_pizza">
                     <a href="" class="main_ChoosePizza--img">
                         <img src="img/Pizza Margarita.jpg" alt="Pizza Margarita" title="Pizza Margarita" class="img">
                     </a>
@@ -155,11 +152,9 @@
                             <div class="main_ChoosePizza--description">Mozzarella, Special Sauce</div>
                         </div>
                         <div class="main_ChoosePizza-ButtonBlock-Wrapper">
-                            <!-- <div class="main_ChoosePizza-ButtonBlock"> -->
                                 <button type="button" class="main_ChoosePizza-ButtonBlock main_ChoosePizza-ButtonBlock-active">22 cm</button>
                                 <button type="button" class="main_ChoosePizza-ButtonBlock">30 cm</button>
                                 <button type="button" class="main_ChoosePizza-ButtonBlock">36 cm</button>
-                            <!-- </div> -->
                         </div>
                         <div class="main_ChoosePizza-ButtonBlock2-Wrapper">
                             <button type="button" class="main_ChoosePizza-ButtonBlock2 main_ChoosePizza-ButtonBlock2-active">Standart</button>
@@ -179,11 +174,9 @@
                             <div class="main_ChoosePizza--description">Corn, Onions, Mushrooms, Bavarian Sausages, Mozzarella, Barbecue Sauce</div>
                         </div>
                         <div class="main_ChoosePizza-ButtonBlock-Wrapper">
-                            <!-- <div class="main_ChoosePizza-ButtonBlock"> -->
                                 <button type="button" class="main_ChoosePizza-ButtonBlock main_ChoosePizza-ButtonBlock-active">22 cm</button>
                                 <button type="button" class="main_ChoosePizza-ButtonBlock">30 cm</button>
                                 <button type="button" class="main_ChoosePizza-ButtonBlock">36 cm</button>
-                            <!-- </div> -->
                         </div>
                         <div class="main_ChoosePizza-ButtonBlock2-Wrapper">
                             <button type="button" class="main_ChoosePizza-ButtonBlock2 main_ChoosePizza-ButtonBlock2-active">Standart</button>
@@ -203,11 +196,9 @@
                             <div class="main_ChoosePizza--description">Chicken, Pineapple, Mozzarella, Special Sauce</div>
                         </div>
                         <div class="main_ChoosePizza-ButtonBlock-Wrapper">
-                            <!-- <div class="main_ChoosePizza-ButtonBlock"> -->
                                 <button type="button" class="main_ChoosePizza-ButtonBlock main_ChoosePizza-ButtonBlock-active">22 cm</button>
                                 <button type="button" class="main_ChoosePizza-ButtonBlock">30 cm</button>
                                 <button type="button" class="main_ChoosePizza-ButtonBlock">36 cm</button>
-                            <!-- </div> -->
                         </div>
                         <div class="main_ChoosePizza-ButtonBlock2-Wrapper">
                             <button type="button" class="main_ChoosePizza-ButtonBlock2 main_ChoosePizza-ButtonBlock2-active">Standart</button>
@@ -216,13 +207,65 @@
                             <button type="button" class="main_ChoosePizza-ButtonBlock2">Hot-Dog edge</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- header суши -->
         <header class="main_header" id="main_header">
+            <div class="main_headerScrollTarget" id="main_headerSushiMenuTarget"></div>
             <div class="main_header--name font-size-35px">Sushi:</div>
+            
+            <div class="main_header--SortByType">
+                <p class="SortByType_a" href="" id="SushiFilter_All">All
+                    <svg class="button-stroke active" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke active" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </p>
+                <p class="SortByType_a" href="" id="SushiFilter_sets">Sushi sets
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </p>
+                <p class="SortByType_a" href="" id="SushiFilter_rolls">Rolls
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </p>
+            </div>
+
+            <div class="main_header--SortBySort">
+                Sort By:
+                <select name="SushiMenuSort" id="SushiMenuSort">
+                    <option value="price_up">to price up</option>
+                    <option value="price_down">to price down</option>
+                </select>
+
+                <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+                    <defs>
+                        <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+                    </defs>
+                </svg>
+            </div>
+            
+        </header>
+
+         <!-- Меню суши -->
+        <div class="mainWrapper"><div class="main_MenuWrapper" id="SushiMenuWrapper"></div></div>
+
+        <!-- header закусок и салатиков -->
+        <header class="main_header" id="main_headerPizza">
+            <div class="main_headerScrollTarget" id="main_headerSnacks&SaladsMenuTarget"></div>
+            <div class="main_header--name font-size-35px">Snacks and salads:</div>
             
             <div class="main_header--SortByType">
                 <a class="SortByType_a" href="">All
@@ -233,7 +276,7 @@
                         <use href="#line"></use>
                     </svg>
                 </a>
-                <a class="SortByType_a" href="">Sushi sets
+                <a class="SortByType_a" href="">Snacks
                     <svg class="button-stroke" viewBox="0 0 154 13">
                         <use href="#line"></use>
                     </svg>
@@ -241,7 +284,7 @@
                         <use href="#line"></use>
                     </svg>
                 </a>
-                <a class="SortByType_a" href="">Rolls
+                <a class="SortByType_a" href="">Salads
                     <svg class="button-stroke" viewBox="0 0 154 13">
                         <use href="#line"></use>
                     </svg>
@@ -267,8 +310,122 @@
             
         </header>
 
+        <!-- Меню закусок и салатиков -->
+        <div class="mainWrapper"><div class="main_MenuWrapper" id="PizzaMenuWrapper"></div></div>
+
+
+        <!-- header супчиков -->
+        <header class="main_header" id="main_header">
+            <div class="main_headerScrollTarget" id="main_headerSoupsMenuTarget"></div>
+            <div class="main_header--name font-size-35px">Soups:</div>
+            
+            <div class="main_header--SortByType">
+                <a class="SortByType_a" href="">All
+                    <svg class="button-stroke active" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke active" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </a>
+                <a class="SortByType_a" href="">Special Propozition!
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="main_header--SortBySort">
+                Sort By:
+                <select name="SortBySort_select" id="SortBySort_select">
+                    <option value="price">price down</option>
+                    <option value="price">price up</option>
+                </select>
+
+                <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+                    <defs>
+                        <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+                    </defs>
+                </svg>
+            </div>
+            
+        </header>
+
+        <!-- header горячих блюд -->
+        <header class="main_header" id="main_header">
+            <div class="main_headerScrollTarget" id="main_headerHotMealsMenuTarget"></div>
+            <div class="main_header--name font-size-35px">Hot meals:</div>
+            
+            <div class="main_header--SortByType">
+                <a class="SortByType_a" href="">All
+                    <svg class="button-stroke active" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke active" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </a>
+                <a class="SortByType_a" href="">Vegetarian
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </a>
+                <a class="SortByType_a" href="">Special Propozition!
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                    <svg class="button-stroke" viewBox="0 0 154 13">
+                        <use href="#line"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="main_header--SortBySort">
+                Sort By:
+                <select name="SortBySort_select" id="SortBySort_select">
+                    <option value="price">price down</option>
+                    <option value="price">price up</option>
+                </select>
+
+                <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+                    <defs>
+                        <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+                    </defs>
+                </svg>
+            </div>
+            
+        </header>
+
+        <!-- header десертиков -->
+        <header class="main_header" id="main_header">
+            <div class="main_headerScrollTarget" id="main_headerDessertsMenuTarget"></div>
+            <div class="main_header--name font-size-35px">Desserts:</div>
+
+            <div class="main_header--SortBySort">
+                Sort By:
+                <select name="SortBySort_select" id="SortBySort_select">
+                    <option value="price">price down</option>
+                    <option value="price">price up</option>
+                </select>
+
+                <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+                    <defs>
+                        <path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+                    </defs>
+                </svg>
+            </div>
+            
+        </header>
+
         <!-- header напитков -->
         <header class="main_header" id="main_header">
+            <div class="main_headerScrollTarget" id="main_headerBeveragesMenuTarget"></div>
             <div class="main_header--name font-size-35px">Beverages:</div>
             
             <div class="main_header--SortByType">

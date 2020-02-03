@@ -1,4 +1,4 @@
-#main_header{
+.main_header{
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -18,13 +18,15 @@
     height: calc(100% - 2em);
     box-shadow: 0 0 30px rgba(0,0,0,.1) inset, 0 0 3px rgba(0,0,0,.2);
 }
-.main_ChoosePizza{
+.main_MenuWrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.main_ChoosePizza .main_ChoosePizza--wrapper,
-.main_ChoosePizza .main_ChoosePizzaWrapper{
+.main_MenuWrapper .main_ChoosePizza--wrapper,
+.main_MenuWrapper .main_ChoosePizzaWrapper,
+.main_MenuWrapper .itemPizzaWrapper,
+.main_MenuWrapper .itemWrapper{
     width: calc(33% - 4em);
     max-width: 25em;
     min-width: 15em;
@@ -41,7 +43,9 @@
     height: 100%;
 }
 .main_ChoosePizza--wrapper:hover,
-.main_ChoosePizzaWrapper:hover{
+.main_ChoosePizzaWrapper:hover,
+.itemPizzaWrapper:hover,
+.itemWrapper:hover{
     border: 1px solid rgba(0,0,0,.2);
     /* border: 2px solid;
     border-image: radial-gradient(rgb(255, 0, 0), rgb(250,224,66)) 1; */
@@ -50,11 +54,15 @@
     box-shadow: 0 10px 15px rgba(255, 0, 0, 0.4);
 }
 .main_ChoosePizza--properties,
-.main_ChoosePizzaProperties{
+.main_ChoosePizzaProperties,
+.itemPizzaProperties,
+.itemProperties{
     padding: 1em;
 }
 .main_ChoosePizza--name,
-.main_ChoosePizzaName{
+.main_ChoosePizzaName,
+.itemPizzaName,
+.itemName{
     font-size: 2em;
     line-height: 30px;
     font-weight: 800;
@@ -62,7 +70,9 @@
     height: 4.2rem;
 }
 .main_ChoosePizza--description,
-.main_ChoosePizzaDescription{
+.main_ChoosePizzaDescription,
+.itemPizzaDescription,
+.itemDescription{
     margin-bottom: 1em;
     overflow: hidden;
     height: 3.4rem;
@@ -74,8 +84,14 @@
     border-radius: 5%;
 } */
 .img,
-.main_MenuImg{
+.main_MenuImg,
+.itemPizzaImg,
+.itemImg{
     max-width: 100%;
     height: auto;
     border-radius: 7%;
+}
+.main_headerScrollTarget{
+    position: absolute;
+    padding-bottom: 10.5em;
 }
