@@ -79,4 +79,5 @@ A:hover {}
     flex-direction: column;
     max-width: calc(100vw - 5em);
     min-width: 600px;
+    overflow: hidden;
 }

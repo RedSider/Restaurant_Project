@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RedPizza</title>
+    <link rel="stylesheet" href="styles/main_slider.css">
     <link rel="stylesheet" href="styles/SortByType_buttons.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/main_slider.css">
     <link rel="stylesheet" href="styles/button_block.css">
     <link rel="stylesheet" href="styles/aside.css">
     <link rel="stylesheet" href="styles/Menu.css">
@@ -81,12 +81,60 @@
 
 <!-- основная инфа -->
     <main class="main" id="main">
-        <div class="main_slider">
-            <div class="slider_slides" id="slide1"></div>
-            <div class="slider_slides" id="slide2"></div>
-            <div class="slider_slides" id="slide3"></div>
-            <div class="slider_slides" id="slide4"></div>
-        </div>
+        <div class="slider">
+            <!-- slides -->
+            <div class="slider__slides">
+              <div class="slide s--active">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <h2 class="slide__heading">RedPizza</h2>
+                    <p class="slide__text">ReeeeeedddPiiiizzzaaaa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <h2 class="slide__heading">RedSushi</h2>
+                    <p class="slide__text">I really love RedSushi</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <h2 class="slide__heading">RedSnacks and Salads</h2>
+                    <p class="slide__text">Which one, RedSnacks or RedSalads?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <h2 class="slide__heading">RedSoups and RedHotMeals</h2>
+                    <p class="slide__text">Reaaally hot RedSoups and RedHotMeals more!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide s--prev">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <h2 class="slide__heading">RedDesserts and RedBeverages</h2>
+                    <p class="slide__text">Yammy-yammy!!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- slides end -->
+            <div class="slider__control">
+              <div class="slider__control-line"></div>
+              <div class="slider__control-line"></div>
+            </div>
+            <div class="slider__control slider__control--right m--right">
+              <div class="slider__control-line"></div>
+              <div class="slider__control-line"></div>
+            </div>
+          </div>
 
         <!-- header пицц -->
         <header class="main_header" id="main_headerPizzaMenu">
@@ -313,5 +361,6 @@
 </body>
 
 <script src="scripts/PizzaMenuRender.js"></script>
+<script src="scripts/main_slider.js"></script>
 
 </html>
