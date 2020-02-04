@@ -38,17 +38,20 @@ A:hover {}
     top: 0;
     z-index: 2;
 }
-.header_user{
-    height: 30px;
+#header_user{
+    cursor: pointer;
+    /* height: 30px; */
 }
 #header_basket-basket{
     height: 30px;
     width: 30px;
     background-image: url(../img/basket.svg);
     margin-left: 5px;
-    /* display: inline-block; */
 }
-
+#header_contacts{
+    text-decoration: none;
+    color: black;
+}
 #logo{
     display: flex;
 }

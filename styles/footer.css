@@ -1,0 +1,19 @@
+#footer{
+    font-size: 16px;
+    display: flex;
+    width: calc(100vw - 6em);
+    float: right;
+    height: 100%;
+    padding: 2em 0;
+    background-color: black;
+}
+#footer_description{
+    width: calc(95vw - 7em - 420px);
+    display: flex;
+    /* position: relative; */
+}
+#footer_map{
+    width: 400px;
+    background-color: gray;
+    padding: 10px;
+}
