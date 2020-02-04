@@ -2,6 +2,7 @@
     "id": 1,
     "name": "Berry Cheesecake",
     "description": "Classic dessert with mascarpone and berry sauce",
+    "FilterStatus": [""],
     "picture": "img/Desserts/chizkejk-yagodnyj.jpeg",
     "defaultPrice": "79",
     "size": "125 gr"
@@ -9,6 +10,7 @@
     "id": 2,
     "name": "Carrot cake",
     "description": "Classic carrot cake with nuts",
+    "FilterStatus": [""],
     "picture": "img/Desserts/kerrot-kejk.jpeg",
     "defaultPrice": "85",
     "size": "125 gr"
@@ -16,6 +18,7 @@
     "id": 3,
     "name": "Classic Cheesecake",
     "description": "Classic shortbread cheese dessert",
+    "FilterStatus": [""],
     "picture": "img/Desserts/klassicheskij-chizkejk.jpeg",
     "defaultPrice": "79",
     "size": "140 gr"
@@ -23,6 +26,7 @@
     "id": 4,
     "name": "Napoleon with salted caramel",
     "description": "Delicate puff pastries with caramel sauce",
+    "FilterStatus": [""],
     "picture": "img/Desserts/napoleon.jpeg",
     "defaultPrice": "89",
     "size": "120 gr"

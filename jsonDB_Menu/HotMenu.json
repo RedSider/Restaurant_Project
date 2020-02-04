@@ -1,0 +1,89 @@
+[{
+    "id": 1,
+    "name": "Bolognese",
+    "description": "Spaghetti bolognese with special sauce and parmesan cheese",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/boloneze.jpeg",
+    "defaultPrice": "109",
+    "size": "320 gr"
+}, {
+    "id": 2,
+    "name": "Chicken Parmesan",
+    "description": "Chicken fillet covered with crispy parmesan crust, peas and mint, greens mix, cherry tomatoes and cranberry sauce",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/cyplenok.jpeg",
+    "defaultPrice": "145",
+    "size": "230/80/40 gr"
+}, {
+    "id": 3,
+    "name": "Chicken breast in cream sauce",
+    "description": "Grilled chicken fillet with vegetables, spinach and cream sauce",
+    "FilterStatus": ["SpecialOffer"],
+    "picture": "img/Hot_Meal/grudka-v-souse.jpeg",
+    "defaultPrice": "99",
+    "size": "140/210 gr"
+}, {
+    "id": 4,
+    "name": "Carbonara",
+    "description": "Tagliatelle pasta with pancetta in cream sauce with Parmesan cheese",
+    "FilterStatus": ["SpecialOffer"],
+    "picture": "img/Hot_Meal/karbonara.jpeg",
+    "defaultPrice": "99",
+    "size": "260 gr"
+}, {
+    "id": 5,
+    "name": "Chicken wings in sauce",
+    "description": "Chicken wings in a spicy Privan sauce, potato dip",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/kurinye-krylyshki.jpeg",
+    "defaultPrice": "129",
+    "size": "250/100 gr"
+}, {
+    "id": 6,
+    "name": "Grilled salmon",
+    "description": "Grilled salmon, cauliflower puree, tapenade, green mix, cherry tomatoes",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/losos-na-grile.jpeg",
+    "defaultPrice": "179",
+    "size": "150/115 gr"
+}, {
+    "id": 7,
+    "name": "Grilled vegetables",
+    "description": "Eggplant, zucchini, mushrooms, bell pepper, cream sauce with parmesan",
+    "FilterStatus": ["Vegetarian"],
+    "picture": "img/Hot_Meal/ovoshchi-gril.jpeg",
+    "defaultPrice": "99",
+    "size": "310 gr"
+}, {
+    "id": 8,
+    "name": "Shrimp and salmon pasta",
+    "description": "Pasta with salmon and shrimps, tomatoes, zucchini, cream sauce and parmesan cheese",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/pasta-s-lososem.jpeg",
+    "defaultPrice": "159",
+    "size": "400 gr"
+}, {
+    "id": 9,
+    "name": "Veal schnitzel",
+    "description": "Classic veal schnitzel with potato dip, salad mix and cranberry sauce",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/shnicel.jpeg",
+    "defaultPrice": "189",
+    "size": "265/95/30 gr"
+}, {
+    "id": 10,
+    "name": "Grilled pork steak",
+    "description": "Grilled pork steak with fried potatoes and mushrooms with BBQ sauce",
+    "FilterStatus": [""],
+    "picture": "img/Hot_Meal/stejk-gril.jpeg",
+    "defaultPrice": "169",
+    "size": "180/150/130 gr"
+}, {
+    "id": 11,
+    "name": "Mediterranean Potatoes",
+    "description": "Baked potatoes with mushrooms, green oil and herbs",
+    "FilterStatus": ["Vegetarian"],
+    "picture": "img/Hot_Meal/kartofel.jpeg",
+    "defaultPrice": "55",
+    "size": "270 gr"
+}]

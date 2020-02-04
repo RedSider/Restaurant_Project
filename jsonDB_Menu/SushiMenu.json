@@ -2,7 +2,7 @@
     "id": 1,
     "name": "Seth Philadelphia Salmon",
     "description": "Rolls: Philadelphia, Philadelphia Norwegian, Philadelphia Sake",
-    "FilterStatus": ["sets"],
+    "FilterStatus": ["Sets"],
     "picture": "img/Sets_and_Sushi/filadelfiya-losos.jpeg",
     "defaultPrice": "319",
     "size": "24 p., 600 gr"
@@ -10,7 +10,7 @@
     "id": 2,
     "name": "Philadelphia Set",
     "description": "Rolls: Philadelphia Classic, Philadelphia sesame, Philadelphia Maxi, Felix salmon roll, Avocado roll",
-    "FilterStatus": ["sets"],
+    "FilterStatus": ["Sets"],
     "picture": "img/Sets_and_Sushi/filadelfiya-set.jpeg",
     "defaultPrice": "589",
     "size": "20 p., 1230 gr"
@@ -18,7 +18,7 @@
     "id": 3,
     "name": "Light Set",
     "description": "Roll with salmon; Classic roll of surimi, tamago, cucumber in tobiko caviar; Poppies with salmon, cucumber and spicy sauce; Roll with salmon, mango, cream cheese and tamago; Roll with chicken in Asian sauce, kimchi mushroom, tomato, iceberg salad, spice sauce in sesame and unagi sauce; Vegetable roll with bell pepper, kimchi mushroom, ham, tomato, green cucumber",
-    "FilterStatus": ["sets"],
+    "FilterStatus": ["Sets"],
     "picture": "img/Sets_and_Sushi/lajt-set.jpeg",
     "defaultPrice": "299",
     "size": "46 p., 1250 gr"
@@ -26,7 +26,7 @@
     "id": 4,
     "name": "Mega Salmon XL",
     "description": "Salmon fillet roll; Salmon fillet roll and Srirachi sauce; Roll with kimchi crab, tamago, cucumber in tobiko caviar; Roll of salmon fillet, Philadelphia cheese, cucumber, tamago and tobiko; Salmon fillet, Philadelphia cheese, Tamago, mango and Romain salad; Roll of salmon fillet, Philadelphia cheese, Tamago, cucumber and mango chili sauce",
-    "FilterStatus": ["sets"],
+    "FilterStatus": ["Sets"],
     "picture": "img/Sets_and_Sushi/losos-mega.jpeg",
     "defaultPrice": "499",
     "size": "52 p., 1380 gr"
@@ -34,7 +34,7 @@
     "id": 5,
     "name": "Salmon love",
     "description": "Philadelphia salmon classic, tar-tar mango-chilli salmon, sambal california, california asia, kappa poppy spice, double salmon poppies",
-    "FilterStatus": ["sets"],
+    "FilterStatus": ["Sets"],
     "picture": "img/Sets_and_Sushi/losos.jpeg",
     "defaultPrice": "399",
     "size": "50 p., 1265 gr"
@@ -42,7 +42,7 @@
     "id": 6,
     "name": "Seth Company",
     "description": "Cast: Chisee Chick; Vega; Felix salmon roll; Avocado roll; Philadelphia is classic",
-    "FilterStatus": ["sets"],
+    "FilterStatus": ["Sets"],
     "picture": "img/Sets_and_Sushi/set-firmennyj.jpeg",
     "defaultPrice": "465",
     "size": "40 p., 1200 gr"
@@ -50,7 +50,7 @@
     "id": 7,
     "name": "Avocado roll",
     "description": "Roll with salmon, cream cheese, tobiko cucumber and cucumber, sesame and Unagi sauce",
-    "FilterStatus": ["rolls"],
+    "FilterStatus": ["Rolls"],
     "picture": "img/Sets_and_Sushi/avokado-roll.jpeg",
     "defaultPrice": "115",
     "size": "8 p, 230 gr"
@@ -58,7 +58,7 @@
     "id": 8,
     "name": "Philadelphia classic",
     "description": "Classic roll with salmon, cream cheese, avocado, tobiko cucumber and cucumber",
-    "FilterStatus": ["rolls"],
+    "FilterStatus": ["Rolls"],
     "picture": "img/Sets_and_Sushi/filadelfiya-klassicheskaya.jpeg",
     "defaultPrice": "169",
     "size": "8 p, 255 gr"
@@ -66,7 +66,7 @@
     "id": 9,
     "name": "",
     "description": "",
-    "FilterStatus": ["rolls"],
+    "FilterStatus": ["Rolls"],
     "picture": "img/Sets_and_Sushi/maki-s-lososem.jpeg",
     "defaultPrice": "65",
     "size": "6 p, 105 gr"
@@ -74,7 +74,7 @@
     "id": 10,
     "name": "Kappa Maki",
     "description": "Roll with cucumber",
-    "FilterStatus": ["rolls"],
+    "FilterStatus": ["Rolls"],
     "picture": "img/Sets_and_Sushi/maki-s-ogurcom.jpeg",
     "defaultPrice": "29",
     "size": "6 p, 105 gr"
@@ -82,7 +82,7 @@
     "id": 11,
     "name": "Vega",
     "description": "Vegetable roll with sweet pepper, ham, tomato, cucumber, romaine lettuce, avocado with sesame and unagi sauce",
-    "FilterStatus": ["rolls"],
+    "FilterStatus": ["Rolls"],
     "picture": "img/Sets_and_Sushi/vega.jpeg",
     "defaultPrice": "69",
     "size": "8 p., 225 gr"
@@ -90,7 +90,7 @@
     "id": 12,
     "name": "Green dragon",
     "description": "Roll salmon roll with eel punk, cream cheese, tobiko caviar, avocado, sesame and unga sauce",
-    "FilterStatus": ["rolls"],
+    "FilterStatus": ["Rolls"],
     "picture": "img/Sets_and_Sushi/zelenyj-drakon.jpeg",
     "defaultPrice": "165",
     "size": "8 p., 255 gr"

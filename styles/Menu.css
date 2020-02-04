@@ -16,7 +16,7 @@
 .mainWrapper{
     padding: 1em 1.5em;
     height: calc(100% - 2em);
-    box-shadow: 0 0 30px rgba(0,0,0,.1) inset, 0 0 3px rgba(0,0,0,.2);
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
 }
 .main_MenuWrapper{
     display: flex;
@@ -75,7 +75,7 @@
 .itemDescription{
     margin-bottom: 1em;
     overflow: hidden;
-    height: 3.4rem;
+    height: 6.3rem;
 }
 
 /* .main_ChoosePizza--img{

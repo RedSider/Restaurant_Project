@@ -2,31 +2,31 @@
     "id": 1,
     "name": "Orange juice",
     "description": "Packaged orange juice",
-    "FilterStatus": ["non-alco"],
-    "picture": "img/Beverages/apelsin.jpeg",
+    "FilterStatus": ["NoAlco"],
+    "picture": "img/Beverages/apelsin.png",
     "defaultPrice": "55",
     "size": "0.95 l"
 }, {
     "id": 2,
     "name": "Multivitamin nectar",
     "description": "Packaged multivitamin nectar",
-    "FilterStatus": ["non-alco"],
-    "picture": "img/Beverages/multivitamin.jpeg",
+    "FilterStatus": ["NoAlco"],
+    "picture": "img/Beverages/multivitamin.png",
     "defaultPrice": "55",
     "size": "0.95 l"
 }, {
     "id": 3,
     "name": "Apple juice",
     "description": "Packaged apple juice",
-    "FilterStatus": ["non-alco"],
-    "picture": "img/Beverages/yabloko.jpeg",
+    "FilterStatus": ["NoAlco"],
+    "picture": "img/Beverages/yabloko.png",
     "defaultPrice": "55",
     "size": "0.95 l"
 }, {
     "id": 4,
     "name": "7UP",
     "description": "Carbonated drink",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/7up.jpeg",
     "defaultPrice": "21",
     "size": "0.5 l"
@@ -34,7 +34,7 @@
     "id": 5,
     "name": "Mirinda",
     "description": "Carbonated drink",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/mirinda.jpeg",
     "defaultPrice": "21",
     "size": "0.5 l"
@@ -42,7 +42,7 @@
     "id": 6,
     "name": "Pepsi",
     "description": "Carbonated drink",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/pepsi.jpeg",
     "defaultPrice": "21",
     "size": "0.5 l"
@@ -50,7 +50,7 @@
     "id": 7,
     "name": "Morshynskaya carbonated",
     "description": "Carbonated mineral water",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/morshinskaya-gazirovannaya_33.jpeg",
     "defaultPrice": "29",
     "size": "0.33 l"
@@ -58,7 +58,7 @@
     "id": 8,
     "name": "Morshynskaya non-carbonated",
     "description": "Non-carbonated mineral water",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/morshinskaya-negazirovannaya_33.jpeg",
     "defaultPrice": "29",
     "size": "0.33 l"
@@ -66,7 +66,7 @@
     "id": 9,
     "name": "Morshynskaya carbonated",
     "description": "Carbonated mineral water",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/morshinskaya-gazirovannaya_75.jpeg",
     "defaultPrice": "45",
     "size": "0.75 l"
@@ -74,7 +74,7 @@
     "id": 10,
     "name": "Morshynskaya non-carbonated",
     "description": "Non-carbonated mineral water",
-    "FilterStatus": ["non-alco"],
+    "FilterStatus": ["NoAlco"],
     "picture": "img/Beverages/morshinskaya-negazirovannaya_75.jpeg",
     "defaultPrice": "45",
     "size": "0.75 l"
@@ -82,7 +82,7 @@
     "id": 11,
     "name": "BUD",
     "description": "Beer",
-    "FilterStatus": [""],
+    "FilterStatus": ["Alco"],
     "picture": "img/Beverages/becks.jpeg",
     "defaultPrice": "35",
     "size": "0.5 l"
@@ -90,23 +90,23 @@
     "id": 12,
     "name": "Stella Artois",
     "description": "Beer",
-    "FilterStatus": [""],
-    "picture": "img/Beverages/stella-artua.jpeg",
+    "FilterStatus": ["Alco"],
+    "picture": "img/Beverages/stella-artua.png",
     "defaultPrice": "42",
     "size": "0.44 l"
 }, {
     "id": 13,
     "name": "Staropramen",
     "description": "Beer",
-    "FilterStatus": [""],
-    "picture": "img/Beverages/staropramen.jpeg",
+    "FilterStatus": ["Alco"],
+    "picture": "img/Beverages/staropramen.png",
     "defaultPrice": "35",
     "size": "0.5 l"
 }, {
     "id": 14,
     "name": "Alazan Valley Red Wine",
     "description": "Semi-sweet red wine. Georgia",
-    "FilterStatus": [""],
+    "FilterStatus": ["Alco"],
     "picture": "img/Beverages/wine-alazanskaya-dolina-red.jpeg",
     "defaultPrice": "269",
     "size": "0.75 l"
@@ -114,7 +114,7 @@
     "id": 15,
     "name": "Alazan Valley White Wine",
     "description": "White semi-sweet wine. Georgia",
-    "FilterStatus": [""],
+    "FilterStatus": ["Alco"],
     "picture": "img/Beverages/wine-alazanskaya-dolina-white.jpeg",
     "defaultPrice": "249",
     "size": "0.75 l"
@@ -122,7 +122,7 @@
     "id": 16,
     "name": "Bacardi Carta Negra",
     "description": "Black rum. Germany / Italy",
-    "FilterStatus": [""],
+    "FilterStatus": ["Alco"],
     "picture": "img/Beverages/bacardi.jpeg",
     "defaultPrice": "699",
     "size": "1 l"
@@ -130,8 +130,8 @@
     "id": 17,
     "name": "William Lawson's",
     "description": "Whiskey is light golden yellow. Scotland",
-    "FilterStatus": ["alco"],
-    "picture": "img/Beverages/vilyam-louson.jpeg",
+    "FilterStatus": ["Alco"],
+    "picture": "img/Beverages/vilyam-louson.png",
     "defaultPrice": "599",
     "size": "1 l"
 }]

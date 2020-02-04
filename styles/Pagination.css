@@ -1,0 +1,39 @@
+.MenuPageWrapper{
+    height: 4em;
+    margin: 1em 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.MenuPageBlockWrapper{
+    /* min-width: 10em;
+    max-width: 50rem; */
+    /* width: 16em; */
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.700);
+    border-radius: 6px;
+    /* padding: 2px 4px; */
+}
+.MenuPageBlock{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 5px;
+}
+.MenuPageBlock:hover{
+    border-bottom:3px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.ActivePage{
+    border-bottom:3px solid #fff;
+}
+.MenuPage{
+    margin: auto;
+    color: #fff;
+}

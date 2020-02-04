@@ -1,34 +1,24 @@
-.SortByType_a {
-    /* display: inline-block; */
+.Filter_btn {
     color: black;
     min-width: 3em;
     text-decoration: none;
-    /* margin-right: 50px; */
     padding: 15px;
     position: relative;
     text-align: center;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
 }
-.SortByType_a:hover .button-stroke:nth-child(2) {
-    stroke-dashoffset: 0;
+.Filter_btnActive{
+    background: #2c2c2c;
+    border-top: 2px solid orange;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.Filter_btn:hover{
+    border-top: 2px solid lightblue;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    transition: 70ms;
 }
   
-.button-stroke {
-    display: block;
-    width: calc(100% - 40px);
-    height: 20px;
-    stroke: transparent;
-    position: absolute;
-    left: 20px;
-    bottom: -px;
-    stroke-width: 4;
-}
-.active{
-    stroke: rgb(239, 66, 62);
-}
-.button-stroke:nth-child(2){
-    stroke-dasharray: 650px;
-    stroke-dashoffset: 650px;
-    stroke: rgb(239, 66, 62);
-    stroke-width: 5;
-    transition: stroke-dashoffset 550ms ease-out;
-}
