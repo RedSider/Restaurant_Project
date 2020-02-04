@@ -22,7 +22,7 @@
     align-items: center;
     border-bottom: 1px solid rgba(169,144,113,.2);
     cursor: pointer;
-    color: #000
+    color: #000;
 }
 .aside_ul--li a{
     width: 100%;
@@ -35,7 +35,6 @@
 .aside_ul--li span{
     width: 100px;
     display: none;
-    
 }
 .aside_ul--li:hover{
     /* display: inline; */

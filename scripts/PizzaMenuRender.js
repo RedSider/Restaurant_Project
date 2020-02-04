@@ -335,7 +335,7 @@ window.addEventListener('load', async () => {
         };   
         Filter_rolls.onclick = () => {
             //проверка, на статус до этого
-            FilterStatus = "rolls";
+            FilterStatus = "Rolls";
             let ActiveFilterNew = Filter_btnActive(Filter_rolls, ActiveFilter);
             ActiveFilter = ActiveFilterNew;
             MenuFiltered = Menu;
@@ -347,7 +347,7 @@ window.addEventListener('load', async () => {
         };
         Filter_sets.onclick = () => {
             //проверка, на статус до этого
-            FilterStatus = "sets";
+            FilterStatus = "Sets";
             let ActiveFilterNew = Filter_btnActive(Filter_sets, ActiveFilter);
             ActiveFilter = ActiveFilterNew;
             MenuFiltered = Menu;
@@ -395,7 +395,7 @@ window.addEventListener('load', async () => {
         };   
         Filter_Snacks.onclick = () => {
             //проверка, на статус до этого
-            FilterStatus = "snack";
+            FilterStatus = "Snack";
             let ActiveFilterNew = Filter_btnActive(Filter_Snacks, ActiveFilter);
             ActiveFilter = ActiveFilterNew;
             MenuFiltered = Menu;
@@ -407,8 +407,8 @@ window.addEventListener('load', async () => {
         };
         Filter_Salads.onclick = () => {
             //проверка, на статус до этого
-            FilterStatus = "Filter_Salads";
-            let ActiveFilterNew = Filter_btnActive(Filter_All, ActiveFilter);
+            FilterStatus = "Salad";
+            let ActiveFilterNew = Filter_btnActive(Filter_Salads, ActiveFilter);
             ActiveFilter = ActiveFilterNew;
             MenuFiltered = Menu;
             while (Wrapper.firstChild) {
